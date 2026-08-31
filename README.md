@@ -1,23 +1,5 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/cjsonnnnn/cjsonnnnn/main/assets/pipeline-banner.svg" alt="Jason Caleb — DevOps pipeline banner" width="100%">
-</p>
-
 <h1 align="center">Jason Caleb</h1>
-<p align="center">DevOps Engineer at <strong>Fata Organa</strong> · Jakarta, Indonesia</p>
-<p align="center"><sub>This is the confirmed core of a larger toolchain, not the whole picture.</sub></p>
-
-<br>
-
-<table width="100%">
-<tr>
-<td width="50%" align="center">
-<img src="https://raw.githubusercontent.com/cjsonnnnn/cjsonnnnn/main/assets/infra-status-panel.svg" alt="Infra status" width="100%">
-</td>
-<td width="50%" align="center">
-<img src="https://raw.githubusercontent.com/cjsonnnnn/cjsonnnnn/main/assets/stack-panel.svg" alt="Stack" width="100%">
-</td>
-</tr>
-</table>
+<p align="center">Jakarta, Indonesia</p>
 
 <br>
 
@@ -34,24 +16,11 @@
 
 <br>
 
-<table width="100%">
-<tr>
-<td width="45%" valign="top">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=cjsonnnnn&background=1A1512&ring=FFB000&fire=34D399&currStreakLabel=E8DFD3&sideLabels=E8DFD3&currStreakNum=E8DFD3&sideNums=E8DFD3&dates=6B6058&hide_border=true" alt="GitHub streak" width="100%">
-</td>
-<td width="55%" valign="top" align="center">
-<sub><b>Contributions</b></sub><br>
-<img src="https://ghchart.rshah.org/FFB000/cjsonnnnn" alt="Contribution heatmap" width="100%">
-</td>
-</tr>
-</table>
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=cjsonnnnn&background=1A1512&ring=FFB000&fire=34D399&currStreakLabel=E8DFD3&sideLabels=E8DFD3&currStreakNum=E8DFD3&sideNums=E8DFD3&dates=6B6058&hide_border=true" alt="GitHub streak" width="60%">
+</p>
 
 <br>
-
-<p align="center">
-  <a href="https://github.com/cjsonnnnn"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://www.linkedin.com/in/cjsonnnnn"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS">
@@ -61,6 +30,11 @@
   <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white" alt="Azure DevOps">
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus">
   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana">
+</p>
+
+<p align="center">
+  <a href="https://github.com/cjsonnnnn"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/cjsonnnnn"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 <p align="center">

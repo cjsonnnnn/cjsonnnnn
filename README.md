@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cjsonnnnn/cjsonnnnn/main/assets/pipeline-banner.svg" alt="Software delivery pipeline banner" width="100%">
+</p>
+
 <h1 align="center">Jason Caleb</h1>
 <p align="center">Jakarta, Indonesia</p>
 

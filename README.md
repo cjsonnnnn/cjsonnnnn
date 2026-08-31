@@ -10,10 +10,10 @@
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=cjsonnnnn&show_icons=true&hide_border=true&bg_color=1A1512&title_color=FFB000&icon_color=34D399&text_color=E8DFD3&hide=stars,contribs" alt="GitHub stats" width="100%">
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=cjsonnnnn&show_icons=true&hide_border=true&bg_color=F7F5F0&title_color=A8710A&icon_color=0E8F5E&text_color=2A2118&hide=stars,contribs" alt="GitHub stats" width="100%">
 </td>
 <td width="50%" valign="top">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=cjsonnnnn&layout=compact&hide_border=true&bg_color=1A1512&title_color=FFB000&text_color=E8DFD3" alt="Top languages" width="100%">
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=cjsonnnnn&layout=compact&hide_border=true&bg_color=F7F5F0&title_color=A8710A&text_color=2A2118" alt="Top languages" width="100%">
 </td>
 </tr>
 </table>
@@ -21,13 +21,13 @@
 <br>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=cjsonnnnn&background=1A1512&ring=FFB000&fire=34D399&currStreakLabel=E8DFD3&sideLabels=E8DFD3&currStreakNum=E8DFD3&sideNums=E8DFD3&dates=6B6058&hide_border=true" alt="GitHub streak" width="60%">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=cjsonnnnn&background=F7F5F0&ring=A8710A&fire=0E8F5E&currStreakLabel=2A2118&sideLabels=2A2118&currStreakNum=2A2118&sideNums=2A2118&dates=8A7F72&hide_border=true" alt="GitHub streak" width="60%">
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/cjsonnnnn/cjsonnnnn/output/github-contribution-grid-snake-dark.svg" width="100%">
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/cjsonnnnn/cjsonnnnn/output/github-contribution-grid-snake.svg" width="100%">
 </p>
 
 <br>
@@ -48,5 +48,5 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cjsonnnnn&color=FFB000&style=for-the-badge&label=VISITORS" alt="Visitor count">
+  <img src="https://komarev.com/ghpvc/?username=cjsonnnnn&color=A8710A&style=for-the-badge&label=VISITORS" alt="Visitor count">
 </p>

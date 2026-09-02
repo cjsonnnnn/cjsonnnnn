@@ -2,8 +2,6 @@
   <img src="https://raw.githubusercontent.com/cjsonnnnn/cjsonnnnn/main/assets/banner.svg" alt="Jason Caleb — human being, working hard to stop working hard" width="100%">
 </p>
 
-<p align="center">Jakarta, Indonesia</p>
-
 <br>
 
 <p align="center">

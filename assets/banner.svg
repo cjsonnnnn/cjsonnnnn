@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340">
+  <defs>
+    <!-- Soft Warm Vanilla & Honey Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F2" />
+      <stop offset="50%" stop-color="#FFF3E4" />
+      <stop offset="100%" stop-color="#FDE8D2" />
+    </linearGradient>
+
+    <radialGradient id="sun-glow" cx="75%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FED7AA" stop-opacity="0.45" />
+      <stop offset="60%" stop-color="#FED7AA" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#FFF9F2" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1000" height="340" fill="url(#bg-grad)" rx="24" />
+  <rect width="1000" height="340" fill="url(#sun-glow)" rx="24" />
+
+  <!-- Soft Decorative Clouds in Sticker World -->
+  <g fill="#FFFFFF" opacity="0.65">
+    <path d="M 60,65 Q 75,40 105,45 Q 135,35 155,55 Q 180,55 185,75 Q 170,100 140,95 Q 110,105 80,90 Q 55,90 60,65 Z" />
+    <path d="M 440,270 Q 460,245 490,250 Q 520,240 540,260 Q 565,265 565,285 Q 545,310 515,305 Q 480,315 455,295 Q 435,290 440,270 Z" />
+    <path d="M 860,50 Q 878,30 905,35 Q 932,27 950,45 Q 972,47 975,67 Q 960,90 932,85 Q 902,95 880,80 Q 858,77 860,50 Z" />
+  </g>
+
+  <!-- Floating Sparkles (Animated with SMIL) -->
+  <g transform="translate(610, 65)">
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1; 1.3; 1"
+        keyTimes="0; 0.5; 1"
+        dur="3s"
+        repeatCount="indefinite"
+      />
+      <path d="M 0,-10 Q 0,0 10,0 Q 0,0 0,10 Q 0,0 -10,0 Q 0,0 0,-10 Z" fill="#FBBF24" opacity="0.85" />
+    </g>
+  </g>
+
+  <g transform="translate(930, 130)">
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="scale"
+        values="1; 1.25; 1"
+        keyTimes="0; 0.5; 1"
+        dur="2.4s"
+        repeatCount="indefinite"
+      />
+      <path d="M 0,-8 Q 0,0 8,0 Q 0,0 0,8 Q 0,0 -8,0 Q 0,0 0,-8 Z" fill="#FBBF24" opacity="0.75" />
+    </g>
+  </g>
+
+  <!-- Floating Heart near Dudu -->
+  <g transform="translate(885, 80)">
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0; 0 -8; 0 0"
+        keyTimes="0; 0.5; 1"
+        dur="2.6s"
+        repeatCount="indefinite"
+      />
+      <path d="M 0,5 C -7,-5 -15,2 -9,10 L 0,18 L 9,10 C 15,2 7,-5 0,5 Z" fill="#F87171" opacity="0.85" />
+    </g>
+  </g>
+
+  <!-- ==================== LEFT: TYPOGRAPHY ==================== -->
+  <g transform="translate(72, 0)">
+    <!-- Main Name -->
+    <text x="0" y="152" 
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" 
+          font-size="58" 
+          font-weight="900" 
+          letter-spacing="-0.025em" 
+          fill="#361E16">
+      Jason Caleb
+    </text>
+
+    <!-- Tagline (Verbatim, no arrow, no extra punctuation) -->
+    <text x="0" y="196" 
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" 
+          font-size="21" 
+          font-weight="600" 
+          letter-spacing="-0.01em" 
+          fill="#825740">
+      human being, working hard to stop working hard
+    </text>
+  </g>
+
+  <!-- ==================== RIGHT: DUDU WITH LOLLIPOP & DUCK BAG ==================== -->
+  <g transform="translate(745, 160)">
+    
+    <!-- Character Idle Bobbing Group (SMIL) -->
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0; 0 -5; 0 0"
+        keyTimes="0; 0.5; 1"
+        dur="3s"
+        repeatCount="indefinite"
+      />
+
+      <!-- Ground Shadow -->
+      <ellipse cx="-2" cy="118" rx="60" ry="11" fill="#DEC1AD" opacity="0.75">
+        <animate
+          attributeName="rx"
+          values="60; 54; 60"
+          keyTimes="0; 0.5; 1"
+          dur="3s"
+          repeatCount="indefinite"
+        />
+      </ellipse>
+
+      <!-- 1. Left Ear (Layered behind head with twitch animation) -->
+      <g transform="translate(-54, -76)">
+        <g>
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            values="0 0 0; 0 0 0; -6 0 0; 2 0 0; 0 0 0"
+            keyTimes="0; 0.85; 0.90; 0.95; 1"
+            dur="5s"
+            repeatCount="indefinite"
+          />
+          <path d="M -16,22 C -32,2 -14,-22 8,-8 C 12,-5 14,3 14,11" 
+                fill="#C68F63" stroke="#361E16" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M -10,16 C -20,2 -8,-12 4,-2" fill="#A87346" />
+        </g>
+      </g>
+
+      <!-- 2. Right Ear (Layered behind head with twitch animation) -->
+      <g transform="translate(62, -62)">
+        <g>
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            values="0 0 0; 0 0 0; 6 0 0; -2 0 0; 0 0 0"
+            keyTimes="0; 0.85; 0.90; 0.95; 1"
+            dur="5s"
+            repeatCount="indefinite"
+          />
+          <path d="M -16,4 C -14,-8 -6,-18 8,-18 C 28,-18 36,4 20,22" 
+                fill="#C68F63" stroke="#361E16" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M -6,0 C -2,-10 12,-10 14,10" fill="#A87346" />
+        </g>
+      </g>
+
+      <!-- 3. Body & Stubby Legs -->
+      <path d="M -54,30 C -68,54 -64,96 -50,112 C -42,122 -20,122 -12,110 C -4,98 4,98 12,110 C 20,122 42,122 50,112 C 64,96 66,54 54,20 Z" 
+            fill="#C68F63" stroke="#361E16" stroke-width="5" stroke-linejoin="round" />
+
+      <!-- 4. Right Arm (Resting at side behind duck bag) -->
+      <path d="M 50,38 C 66,45 74,60 70,76 C 66,82 58,82 54,74 C 50,66 48,54 46,44" 
+            fill="#C68F63" stroke="#361E16" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+
+      <!-- 5. Head (Distinctive 3/4 Chubbiness & Left Cheek Bulge) -->
+      <path d="M -42,-72 C -10,-84 38,-82 66,-60 C 86,-42 86,-10 74,18 C 62,38 32,45 0,44 C -35,43 -56,38 -72,22 C -88,6 -86,-25 -72,-45 C -64,-58 -54,-68 -42,-72 Z" 
+            fill="#C68F63" stroke="#361E16" stroke-width="5.5" stroke-linejoin="round" />
+
+      <!-- 6. Big Golden-Yellow Round Cheeks -->
+      <!-- Left Cheek (Bulging on side) -->
+      <ellipse cx="-64" cy="4" rx="16" ry="14" fill="#F6C46A" />
+      <!-- Right Cheek -->
+      <ellipse cx="38" cy="12" rx="16.5" ry="14" fill="#F6C46A" />
+
+      <!-- 7. Solid Dark Bean Eyes (Blinking with SMIL) -->
+      <!-- Left Eye -->
+      <ellipse cx="-34" cy="-15" rx="7" ry="8" fill="#361E16">
+        <animate
+          attributeName="ry"
+          values="8; 8; 0.8; 8; 8"
+          keyTimes="0; 0.88; 0.93; 0.98; 1"
+          dur="4s"
+          repeatCount="indefinite"
+        />
+      </ellipse>
+      <!-- Right Eye -->
+      <ellipse cx="15" cy="-10" rx="7" ry="8" fill="#361E16">
+        <animate
+          attributeName="ry"
+          values="8; 8; 0.8; 8; 8"
+          keyTimes="0; 0.88; 0.93; 0.98; 1"
+          dur="4s"
+          repeatCount="indefinite"
+        />
+      </ellipse>
+
+      <!-- 8. Tiny ':3' Mouth -->
+      <path d="M -17,-13 C -15,-8 -10,-8 -9,-11 C -8,-8 -3,-8 -1,-13" 
+            fill="none" stroke="#361E16" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+
+      <!-- 9. Crossbody Bag Strap -->
+      <path d="M -30,42 C -10,65 15,78 40,86" fill="none" stroke="#361E16" stroke-width="9" stroke-linecap="round" />
+      <path d="M -30,42 C -10,65 15,78 40,86" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" />
+
+      <!-- 10. Duck Crossbody Bag (With gentle jiggle) -->
+      <g transform="translate(42, 88)">
+        <g>
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            values="0 0 0; -3 0 0; 3 0 0; 0 0 0"
+            keyTimes="0; 0.33; 0.66; 1"
+            dur="3s"
+            repeatCount="indefinite"
+          />
+          <!-- White Bag Pouch -->
+          <ellipse cx="0" cy="0" rx="24" ry="20" fill="#FFFFFF" stroke="#361E16" stroke-width="4.5" />
+          <!-- Bag Eyes -->
+          <circle cx="-13" cy="-3" r="2.8" fill="#361E16" />
+          <circle cx="13" cy="-3" r="2.8" fill="#361E16" />
+          <!-- Bag Beak -->
+          <ellipse cx="0" cy="3" rx="8" ry="6" fill="#EEA245" stroke="#361E16" stroke-width="3" />
+          <!-- Bag Cheeks -->
+          <ellipse cx="-19" cy="3" rx="4" ry="3" fill="#FF8F9C" opacity="0.8" />
+          <ellipse cx="19" cy="3" rx="4" ry="3" fill="#FF8F9C" opacity="0.8" />
+        </g>
+      </g>
+
+      <!-- 11. Left Arm & Lollipop (Holding & Licking Animation) -->
+      <g transform="translate(-30, 48)">
+        <g>
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            values="0 0 0; 5 0 0; 0 0 0; -3 0 0; 0 0 0"
+            keyTimes="0; 0.25; 0.5; 0.75; 1"
+            dur="2.5s"
+            repeatCount="indefinite"
+          />
+
+          <!-- Lollipop Stick -->
+          <line x1="-2" y1="4" x2="18" y2="-32" stroke="#361E16" stroke-width="7" stroke-linecap="round" />
+          <line x1="-2" y1="4" x2="18" y2="-32" stroke="#F3C044" stroke-width="3.5" stroke-linecap="round" />
+
+          <!-- Lollipop Candy Head -->
+          <g transform="translate(24, -40)">
+            <circle cx="0" cy="0" r="15" fill="#E85D67" stroke="#361E16" stroke-width="4" />
+            <!-- Concentric Groove & Highlight -->
+            <ellipse cx="-1" cy="2" rx="13.5" ry="6.5" fill="none" stroke="#361E16" stroke-width="2.8" transform="rotate(-25)" />
+            <path d="M -8,-6 C -2,-11 6,-10 11,-3" fill="none" stroke="#F48B94" stroke-width="2.8" stroke-linecap="round" />
+          </g>
+
+          <!-- Arm & Paw Holding the Stick -->
+          <path d="M -22,-6 C -28,-2 -26,10 -16,14 C -8,18 4,14 4,2 C 4,-6 -14,-10 -22,-6 Z" 
+                fill="#C68F63" stroke="#361E16" stroke-width="4.5" stroke-linejoin="round" />
+        </g>
+      </g>
+
+    </g>
+  </g>
+</svg>

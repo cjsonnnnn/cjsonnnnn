@@ -5,8 +5,8 @@
 <br>
 
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=cjsonnnnn&show_icons=true&hide_border=true&bg_color=F7F5F0&title_color=A8710A&icon_color=0E8F5E&text_color=2A2118&hide=stars,contribs" alt="GitHub stats" width="474">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=cjsonnnnn&layout=compact&hide_border=true&bg_color=F7F5F0&title_color=A8710A&text_color=2A2118" alt="Top languages" width="307">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=cjsonnnnn&show_icons=true&hide_border=true&bg_color=F7F5F0&title_color=A8710A&icon_color=0E8F5E&text_color=2A2118&hide=stars,contribs" alt="GitHub stats" width="442">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=cjsonnnnn&layout=compact&hide_border=true&bg_color=F7F5F0&title_color=A8710A&text_color=2A2118&hide=HTML,Jupyter%20Notebook" alt="Top languages" width="335">
 </p>
 
 <br>
